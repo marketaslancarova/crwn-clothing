@@ -6,7 +6,7 @@ import { initializeApp } from "firebase/app";
 
 import {getAuth, signInWithRedirect,signInWithPopup, createUserWithEmailAndPassword, GoogleAuthProvider, signInWithEmailAndPassword,signOut,onAuthStateChanged } from 'firebase/auth';
 import {getFirestore,doc,getDoc,setDoc, collection, WriteBatch, writeBatch,query, getDocs} from 'firebase/firestore';
-import firebaseConfig from "../../../apiKeys";
+import firebaseConfig from "../apiKeys"
 // Your web app's Firebase configuration
 
 
